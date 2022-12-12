@@ -1,0 +1,29 @@
+{
+  "name": "david",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DebidYadav/LearningReact.git"
+  },
+  "keywords": [],
+  "author": "Debid Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DebidYadav/LearningReact/issues"
+  },
+  "homepage": "https://github.com/DebidYadav/LearningReact#readme",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.1",
+    "process": "^0.11.10"
+  }
+}
