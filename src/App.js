@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import CardComponent from "./CardComponent.js";
 
 title = "Food Piper";
 
@@ -9,22 +10,39 @@ const HeadingComponent = () =>(
     </div>
 );
 
-const CardComponent = () =>(
-    <div id="card" className="card">
-        <img src ="https://thumbs.dreamstime.com/z/pizza-slice-5957584.jpg"></img>
-        <h2>Pizza 47</h2>
-        <h3>Pizza, Italian</h3>
-        <h4>4.2 Stars</h4>
-    </div>
-);
+const data =[{
+    img : "https://thumbs.dreamstime.com/z/pizza-slice-5957584.jpg",
+    name: "Pizza 47",
+    cusine: "Pizza, Italian",
+    stars: 4.5,
+    id: "ghdj",
+},
+{
+    img : "https://thumbs.dreamstime.com/z/pizza-slice-5957584.jpg",
+    name: "Pizza 47",
+    cusine: "Pizza, Italian",
+    stars: 3,
+    id: "jgjfu",
+},
+{
+    img : "https://thumbs.dreamstime.com/z/pizza-slice-5957584.jpg",
+    name: "Pizza 47",
+    cusine: "Pizza, Italian",
+    stars: 3.5,
+    id: "uuydtyx",
+}
+];
+
+const CardContainer = () =>{
+    const cards = data.map((restaurant) => {
+        return <CardComponent restaurant={restaurant} key={restaurant.id}/>
+    });
+    return cards;
+};
 
 const BodyComponent = () =>(
     <div className="card-container">
-        <CardComponent/>
-        <CardComponent/>
-        <CardComponent/>
-        <CardComponent/>
-        <CardComponent/>
+        <CardContainer/>
     </div>
 );
 
