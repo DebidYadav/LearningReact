@@ -1,0 +1,24 @@
+[
+    {
+        "img" : "https://thumbs.dreamstime.com/z/pizza-slice-5957584.jpg",
+        "name": "Pizza 47",
+        "cusine": "Pizza, Italian",
+        "stars": 4.5,
+        "id": "ghdj"
+    },
+    {
+        "img" : "https://thumbs.dreamstime.com/z/pizza-slice-5957584.jpg",
+        "name": "Burger Point",
+        "cusine": "Pizza, Italian",
+        "stars": 3,
+        "id": "jgjfu"
+    },
+    {
+        "img" : "https://thumbs.dreamstime.com/z/pizza-slice-5957584.jpg",
+        "name": "Italian Point",
+        "cusine": "Pizza, Italian",
+        "stars": 3.5,
+        "id": "uuydtyx"
+    }
+]
+
